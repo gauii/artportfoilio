@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        .main-header{
+            text-align: left;
+            background-color:bisque;
+            padding: 0em 1em;
+        }
+        .h{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: palevioletred;
+        }
+        ul{
+            padding: 0;
+            list-style: none;
+        }
+        header{
+            overflow: hidden;
+        }
+        #menu li{
+            display: inline-block;
+            padding: none;
+            margin: none;
+        }
+        #menu li a, #menu li span{
+            display: inline-block;
+            padding: 0em 1.5em;
+            text-decoration: none;
+            font-weight: 600;
+            line-height: 40px;
+        }
+        #menu li a{
+            color: palevioletred;
+        }
+        .main-footer{
+            background-color: bisque;
+            padding: 15px;
+            text-align: center;
+            font-weight: 600;
+            color: palevioletred;
+        }
+        .bg{
+            background-image: url("bgg.jpg");
+            height: 888.656px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+           }
+           .post{
+               color:white;
+               text-align: center;
+               height: 200px;
+               background-color: palevioletred;
+               border: 3px solid white;
+               background-position: center;
+               height: 650px;
+               width: 900px;
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-450px, -25px);
+   
+           }
+           .tt{
+            transform: translate(-300px, 40px);
+            font-size: xx-large;
+        } 
+        .para{
+            
+            transform: translate(60px, 20px);
+            width: 200px;
+            text-align: left;
+            
+        }
+        .tt1{
+            transform: translate(80px, -203px);
+            font-size: xx-large;
+        }
+        .t1{
+            transform: translate(60px, -200px);
+        }
+        .t2{
+            transform: translate(48px, -200px);
+        }
+        .t3{
+            transform: translate(55px, -200px);
+        }
+        .t4{
+            transform: translate(55px, -200px);
+        }
+ 
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="h"> Gauravi Kamat <img src="1.png" width="40px"></h1>
+    <div class="head">
+     <nav> 
+        <div id="menu">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="bio.html">Bio</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    </header>
+    <section>
+        <div class="bg">
+            <article class="post">
+                <div class="tt">
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="para">
+                    <p> Gauravi Kamat<br><br>
+                        500 ABC Karnataka<br>
+                        India, Pincode 123456<br>
+                        info@mysite.com<br>
+                        Tel: 123-456-7890<br>
+                        Fax: 123-456-7890<br>
+                    </p>
+                </div>
+                <div class="tt1">
+                    <h1>Drop Me A Line</h1>
+                </div>
+                <form>
+                    <div class="t1">
+                        <label>Name</label>
+                        <input type="text" name="name"> 
+                    </div>
+                    <br>
+                    <div class="t1">
+                        <label>Email</label>
+                        <input type="email" name="email"> 
+                    </div>
+                    <br>
+                    <div class="t3">
+                        <label>Subject</label>
+                        <input type="text" name="subject"> 
+                    </div>
+                    <br>
+                    <div class="t2">
+                        <label>Message</label>
+                        <textarea name="message"></textarea>
+                    </div>
+                    <br>
+                    <div class="t4">
+                     <input type="submit" name="submit" value="submit" style="color:palevioletred" >
+                    </div>
+                </form>
+                <div class="para">
+                    <a href="#" class="fa fa-instagram" style="color: white;">  Follow Me on Instagram</a>
+                    <a href="#" class="fa fa-linkedin" style="color: white;">  Follow Me on LinkedIn</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <footer class="main-footer">
+        <p>&copy; 2023 | Gauravi Kamat | ALL RIGHTS RESERVED |</p>
+    </footer>
+</body>
+</html>
